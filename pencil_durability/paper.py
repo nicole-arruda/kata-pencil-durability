@@ -1,7 +1,16 @@
 class Paper:
-    def __init__(self):
-        self._contents = ""
+    def __init__(self, text = ""):
+        self._text = text
 
 
-    def contents(self):
-        return self._contents
+    def get_text(self):
+        return self._text
+
+
+    def add_text(self, text):
+        self._text += text
+        return self._text
+
+    def erase_text(self, text):
+        pass
+
