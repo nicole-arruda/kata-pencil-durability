@@ -1,2 +1,8 @@
 # IntelliJ project files
 .idea/
+
+# Compiled files
+*/__pycache__/
+
+# PyTest cache
+*/.pytest_cache/
